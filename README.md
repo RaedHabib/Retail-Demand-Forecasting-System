@@ -42,13 +42,4 @@ source venv/bin/activate  # Linux/Mac
 
 ### Install dependencies
 pip install -r requirements.txt
-<br>
-<br>
-## Usage
-### Basic execution:
-python main.py \
-  --data data/input/sales_data.csv \
-  --holidays data/input/holidays.xlsx \
-  --output data/output/forecasts.csv
-
 
