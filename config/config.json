@@ -1,0 +1,32 @@
+{
+    "visualization": {
+        "style": "ggplot",
+        "palette": ["#1f77b4", "#4e79a7", "#5c8fb3", "#7aa6c2"],
+        "figsize": [12, 6]
+    },
+    "models": {
+        "LightGBM": {
+            "objective": "mae",
+            "num_leaves": 31,
+            "learning_rate": 0.05,
+            "random_state": 42
+        },
+        "XGBoost": {
+            "objective": "reg:absoluteerror",
+            "learning_rate": 0.05,
+            "max_depth": 5,
+            "random_state": 42
+        },
+        "CatBoost": {
+            "loss_function": "MAE",
+            "learning_rate": 0.05,
+            "random_state": 42,
+            "silent": true
+        },
+        "RandomForest": {
+            "n_estimators": 100,
+            "max_depth": 5,
+            "random_state": 42
+        }
+    }
+}
