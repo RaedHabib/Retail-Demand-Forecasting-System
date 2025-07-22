@@ -4,34 +4,34 @@
 <br>
 <br>
 <br>
-## Overview
+# Overview
 A comprehensive demand forecasting system that processes historical sales data coming from an E-commerce platform for a retail business, trains machine learning models, and generates future predictions. The pipeline handles the complete workflow from data ingestion to forecast generation.
 <br>
 <br>
-## Project Structure
+# Project Structure
 demand-forecasting/
-├── corelib/                   
-│   ├── forecast_generator.py  
-│   ├── model_trainer.py       
-│   ├── visualizer.py          
-│   └── __init__.py            
-├── config/
-│   └── config.json           
-├── data/                    
-│   ├── input/               
-│   │   ├── sales_data.csv    
-│   │   └── holidays.xlsx     
-│   └── output/              
-│       └── forecasts.csv     
-├── logs/                     
-├── main.py                   
-└── README.md       
+├── corelib/<br>                   
+│   ├── forecast_generator.py <br> 
+│   ├── model_trainer.py    <br>   
+│   ├── visualizer.py  <br>        
+│   └── __init__.py  <br>          
+├── config/<br>
+│   └── config.json <br>          
+├── data/       <br>             
+│   ├── input/ <br>              
+│   │   ├── sales_data.csv <br>   
+│   │   └── holidays.xlsx <br>    
+│   └── output/    <br>          
+│       └── forecasts.csv   <br>  
+├── logs/    <br>                 
+├── main.py  <br>                 
+└── README.md   <br>    
 <br>
 <br>
 <br>
 <br>
-## Installation
-# Clone repository
+# Installation
+Clone repository
 git clone https://github.com/yourusername/demand-forecasting.git
 cd demand-forecasting
 
