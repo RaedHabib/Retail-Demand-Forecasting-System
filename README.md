@@ -4,10 +4,12 @@
 <br>
 <br>
 <br>
+
 ## Overview
 A comprehensive demand forecasting system that processes historical sales data coming from an E-commerce platform for a retail business, trains machine learning models, and generates future predictions. The pipeline handles the complete workflow from data ingestion to forecast generation.
 <br>
 <br>
+
 ## Project Structure
 demand-forecasting/
 ├── corelib/<br>                   
@@ -30,16 +32,20 @@ demand-forecasting/
 <br>
 <br>
 <br>
-## Installation
+
+## Installation<br>
+
 #### Clone repository<br>
 git clone https://github.com/yourusername/demand-forecasting.git<br>
 cd demand-forecasting<br>
 <br><br>
+
 #### Create virtual environment<br>
 python -m venv venv<br>
 source venv/bin/activate  # Linux/Mac<br>
 venv\Scripts\activate  # Windows<br>
 <br><br>
+
 #### Install dependencies<br>
 pip install -r requirements.txt
 
