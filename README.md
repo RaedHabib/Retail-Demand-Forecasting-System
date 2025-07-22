@@ -1,4 +1,4 @@
-<img width="1145" height="815" alt="image" src="https://github.com/user-attachments/assets/dbb0c668-8f2f-41b7-8712-ea823ce87e8d" /># Retail-Demand-Forecasting-System
+# Retail-Demand-Forecasting-System
 <img width="1280" height="720" alt="image" src="https://github.com/user-attachments/assets/f979ff00-abdc-476c-bc32-7d65ad83f410" />
 <br>
 <br>
